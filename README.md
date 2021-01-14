@@ -1,16 +1,29 @@
-# tatsam
+2 Screens - List and Favorites
 
-A new Flutter project.
+List View (online):
 
-## Getting Started
+- Show a paginated list of Countries from the API [https://api.first.org/data/v1/countries](https://api.first.org/data/v1/countries)
+- Each item in the list will display - Code, Country Name, Region.
+- Each item will have a favorite icon, which user can tap to mark/unmark that country as favorite.
 
-This project is a starting point for a Flutter application.
+List View (offline):
 
-A few resources to get you started if this is your first Flutter project:
+- Display a message - "Please check your network connectivity"
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Favorite View (online/offline):
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Show the list of countries that have been marked as favorite.
+- Each item in the list will display - Code, Country Name, Region.
+- No action available for user.
+
+Instructions:
+
+- Use standard architecture for code, ex: MVVM or BLoC.
+- Write clean code with appropriate naming conventions.
+- Add comments where necessary.
+
+Submission:
+
+- Please upload the codebase to a git host (ex: Github, Bitbucket, etc.) and share the repository url.
+- Share a recording of the working final app
+
