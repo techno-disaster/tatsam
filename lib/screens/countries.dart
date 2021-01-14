@@ -63,7 +63,7 @@ class _CountryListState extends State<CountryList> {
   void onFavoritePress(Country country) {
     final favCountriesBox = Hive.box(favoritesBox);
     if (favCountriesBox.containsKey(country.countryCode)) {
-      favCountriesBox.delete(country);
+      favCountriesBox.delete(country.countryCode);
       return;
     }
     favCountriesBox.put(country.countryCode, country);
@@ -113,6 +113,8 @@ class _CountryListState extends State<CountryList> {
   }
 
   ListView _buildListView(CountryState state) {
+    final favCountriesBox = Hive.box(favoritesBox);
+    print(favCountriesBox.keys);
     return ListView.builder(
       itemBuilder: (BuildContext context, int index) {
         return index >= state.countries.length

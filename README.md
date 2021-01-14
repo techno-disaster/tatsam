@@ -27,3 +27,8 @@ Submission:
 - Please upload the codebase to a git host (ex: Github, Bitbucket, etc.) and share the repository url.
 - Share a recording of the working final app
 
+
+
+[![Tatsam](https://img.youtube.com/vi/w5LDqGiLIh8/0.jpg)](https://youtu.be/w5LDqGiLIh8)
+
+=
